@@ -35,8 +35,9 @@
     const updateAction = () => {
       if (!regionSelect) return;
       const key = regionSelect.value;
-      const endpointKey = regionSelect.selectedOptions?.[0]?.dataset.form || key;
-      if (endpoints[endpointKey]) form.action = endpoints[endpointKey];
+      // Todas las solicitudes de esta plataforma llegan al formulario principal.
+      // La región se conserva como dato de contexto, nunca como un destino distinto.
+      if (endpoints.primary) form.action = endpoints.primary;
       form.dataset.selectedRegion = key;
     };
     updateAction();
