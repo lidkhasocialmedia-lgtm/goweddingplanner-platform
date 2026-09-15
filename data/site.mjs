@@ -13,6 +13,7 @@ export const site = {
     { label: 'Regiones', href: '/regiones/' },
     { label: 'Servicios', href: '/servicios/' },
     { label: 'Portfolio', href: '/portfolio/' },
-    { label: 'Historias', href: '/blog/' }
+    { label: 'Historias', href: '/blog/' },
+    { label: 'Colabora', href: '/trabaja-con-nosotros/' }
   ]
 };

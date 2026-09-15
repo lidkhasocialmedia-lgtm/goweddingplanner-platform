@@ -74,6 +74,27 @@
     }
   });
 
+  document.querySelectorAll('[data-catalog-form]').forEach((form) => {
+    const submitButton = form.querySelector('button[type="submit"]');
+    const status = form.querySelector('[data-catalog-status]');
+    const success = form.closest('.form-shell')?.querySelector('[data-catalog-success]');
+
+    form.addEventListener('submit', () => {
+      if (submitButton) {
+        submitButton.disabled = true;
+        submitButton.textContent = 'Enviando…';
+      }
+      if (status) status.textContent = 'Estamos preparando vuestro acceso…';
+      track('catalog_request_submit');
+      window.setTimeout(() => {
+        form.hidden = true;
+        if (success) success.hidden = false;
+        if (status) status.textContent = '';
+        track('catalog_request_success');
+      }, 1300);
+    });
+  });
+
   const modal = document.querySelector('[data-success-modal]');
   const openModal = () => {
     if (!modal) return;
