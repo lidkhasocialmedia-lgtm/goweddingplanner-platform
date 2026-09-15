@@ -19,7 +19,8 @@ const walk = (dir) => {
         .replaceAll('href="/', `href="${base}/`)
         .replaceAll('src="/', `src="${base}/`)
         .replaceAll('location.replace("/', `location.replace("${base}/`)
-        .replaceAll('url=/', `url=${base}/`);
+        .replaceAll('url=/', `url=${base}/`)
+        .replace('</head>', '<meta name="robots" content="noindex,nofollow"></head>');
       fs.writeFileSync(file, html);
     }
   }
