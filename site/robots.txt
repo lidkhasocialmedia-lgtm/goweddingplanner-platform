@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /site-preview/
+Sitemap: https://goweddingplanner.com/sitemap.xml

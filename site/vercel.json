@@ -1,0 +1,141 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/servicios.html",
+      "destination": "/servicios/",
+      "permanent": true
+    },
+    {
+      "source": "/portfolio.html",
+      "destination": "/portfolio/",
+      "permanent": true
+    },
+    {
+      "source": "/sobre-nosotros.html",
+      "destination": "/sobre-nosotros/",
+      "permanent": true
+    },
+    {
+      "source": "/contacto.html",
+      "destination": "/contacto/",
+      "permanent": true
+    },
+    {
+      "source": "/aviso-legal.html",
+      "destination": "/aviso-legal/",
+      "permanent": true
+    },
+    {
+      "source": "/politica-privacidad.html",
+      "destination": "/politica-privacidad/",
+      "permanent": true
+    },
+    {
+      "source": "/politica-cookies.html",
+      "destination": "/politica-cookies/",
+      "permanent": true
+    },
+    {
+      "source": "/bodas-madrid-centro",
+      "destination": "/madrid/ciudades/madrid-centro/",
+      "permanent": true
+    },
+    {
+      "source": "/bodas-mostoles",
+      "destination": "/madrid/ciudades/mostoles/",
+      "permanent": true
+    },
+    {
+      "source": "/bodas-alcorcon",
+      "destination": "/madrid/ciudades/alcorcon/",
+      "permanent": true
+    },
+    {
+      "source": "/bodas-fuenlabrada",
+      "destination": "/madrid/ciudades/fuenlabrada/",
+      "permanent": true
+    },
+    {
+      "source": "/bodas-getafe",
+      "destination": "/madrid/ciudades/getafe/",
+      "permanent": true
+    },
+    {
+      "source": "/bodas-leganes",
+      "destination": "/madrid/ciudades/leganes/",
+      "permanent": true
+    },
+    {
+      "source": "/bodas-arroyomolinos",
+      "destination": "/madrid/ciudades/arroyomolinos/",
+      "permanent": true
+    },
+    {
+      "source": "/bodas-navalcarnero",
+      "destination": "/madrid/ciudades/navalcarnero/",
+      "permanent": true
+    },
+    {
+      "source": "/bodas-villaviciosa-de-odon",
+      "destination": "/madrid/ciudades/villaviciosa-de-odon/",
+      "permanent": true
+    },
+    {
+      "source": "/bodas-barcelona",
+      "destination": "/cataluna/ciudades/barcelona/",
+      "permanent": true
+    },
+    {
+      "source": "/bodas-sant-cugat-del-valles",
+      "destination": "/cataluna/ciudades/sant-cugat-del-valles/",
+      "permanent": true
+    },
+    {
+      "source": "/bodas-sitges",
+      "destination": "/cataluna/ciudades/sitges/",
+      "permanent": true
+    },
+    {
+      "source": "/bodas-castelldefels",
+      "destination": "/cataluna/ciudades/castelldefels/",
+      "permanent": true
+    },
+    {
+      "source": "/bodas-sabadell",
+      "destination": "/cataluna/ciudades/sabadell/",
+      "permanent": true
+    },
+    {
+      "source": "/bodas-terrassa",
+      "destination": "/cataluna/ciudades/terrassa/",
+      "permanent": true
+    },
+    {
+      "source": "/bodas-esplugues",
+      "destination": "/cataluna/ciudades/esplugues/",
+      "permanent": true
+    },
+    {
+      "source": "/bodas-sant-just",
+      "destination": "/cataluna/ciudades/sant-just/",
+      "permanent": true
+    },
+    {
+      "source": "/bodas-mataro",
+      "destination": "/cataluna/ciudades/mataro/",
+      "permanent": true
+    },
+    {
+      "source": "/bodas-granollers",
+      "destination": "/cataluna/ciudades/granollers/",
+      "permanent": true
+    },
+    {
+      "source": "/bodas-badalona",
+      "destination": "/cataluna/ciudades/badalona/",
+      "permanent": true
+    }
+  ]
+}
