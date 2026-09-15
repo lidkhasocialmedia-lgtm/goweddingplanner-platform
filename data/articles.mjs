@@ -5,7 +5,7 @@ export const articles = [
     title: 'Cuánto cuesta un wedding planner en España',
     description: 'Una guía clara para entender qué incluye un servicio de wedding planner, qué variables influyen en el precio y cómo comparar propuestas.',
     readTime: '8 min de lectura',
-    image: '/assets/finca.webp',
+    image: '/assets/boda-finca.webp',
     sections: [
       { heading: 'La respuesta corta: depende del alcance, no solo del número de invitados', paragraphs: ['No existe una tarifa única para organizar una boda. El precio de un wedding planner depende sobre todo de la fase en la que entra el equipo, el número de proveedores que hay que coordinar, la complejidad del montaje y el nivel de acompañamiento que necesitáis.', 'Una boda íntima puede requerir mucha producción si se celebra lejos de vuestra ciudad. Del mismo modo, una boda grande puede tener un presupuesto de planificación razonable si el lugar y los proveedores ya están definidos. La pregunta útil no es solo cuánto cuesta, sino qué problemas os ayuda a resolver.'] },
       { heading: 'Tres modelos de servicio habituales', paragraphs: ['La planificación integral acompaña desde la búsqueda del espacio y el diseño del concepto hasta la coordinación del día de la boda. Es la opción adecuada cuando queréis delegar decisiones y tener un único punto de control.', 'La planificación parcial se centra en una parte concreta: encontrar proveedores, ordenar el presupuesto o rediseñar la experiencia. La coordinación del día B entra normalmente en los últimos meses y toma el relevo de la logística para que vosotros podáis disfrutar.'], list: ['Planificación integral: estrategia, proveedores, diseño y producción.', 'Planificación parcial: apoyo en las áreas donde más lo necesitáis.', 'Coordinación del día B: cronograma, equipos, montaje y resolución de imprevistos.'] },
@@ -33,7 +33,7 @@ export const articles = [
     title: '¿Vale la pena contratar un wedding planner?',
     description: 'Una forma práctica de decidir si necesitáis ayuda profesional para organizar vuestra boda.',
     readTime: '6 min de lectura',
-    image: '/assets/pareja-vinedo.webp',
+    image: '/assets/boda-vinedo.webp',
     sections: [
       { heading: 'La mejor respuesta está en vuestro contexto', paragraphs: ['Contratar un wedding planner tiene sentido cuando queréis disfrutar más del proceso, necesitáis ordenar muchas decisiones o la boda tiene una logística que no queréis cargar sobre familiares y amigos.', 'No todas las parejas necesitan un servicio integral. A veces basta con una sesión de estrategia, una búsqueda de proveedores o una coordinación final. La ayuda debe adaptarse al problema real.'] },
       { heading: 'Señales de que os puede ayudar', paragraphs: ['Si os cuesta convertir ideas en un presupuesto, si no tenéis tiempo para pedir y comparar propuestas o si celebraréis la boda fuera de vuestra ciudad, contar con un equipo puede ahorraros vueltas y reducir el estrés. También ayuda cuando queréis una estética muy cuidada, pero no sabéis cómo llevarla a producción.'], list: ['Tenéis poco tiempo para gestionar la organización.', 'La boda se celebra en otra ciudad o región.', 'Hay varios espacios, días o transportes implicados.', 'Queréis proteger a vuestra familia de la logística.', 'Necesitáis coordinar muchos proveedores el mismo día.'] },
@@ -60,7 +60,7 @@ export const articles = [
     title: 'Wedding planner en Madrid: cómo empezar sin perderse',
     description: 'Un mapa práctico para organizar una boda en Madrid, desde el primer presupuesto hasta la elección del espacio.',
     readTime: '8 min de lectura',
-    image: '/assets/pareja-vinedo.webp',
+    image: '/assets/boda-interior.webp',
     sections: [
       { heading: 'Madrid ofrece más de un tipo de boda', paragraphs: ['La ciudad y su entorno permiten combinar hoteles, palacetes, fincas, espacios industriales y celebraciones en la sierra. Antes de pedir presupuestos, decidid qué ritmo queréis: una boda urbana, una celebración al aire libre o un fin de semana con invitados.', 'El lugar condiciona la logística, el horario, los desplazamientos y buena parte del presupuesto. Por eso conviene elegirlo con una visión completa, no solo por la fotografía del espacio.'] },
       { heading: 'Orden recomendado de decisiones', paragraphs: ['Definid la temporada, el número aproximado de invitados y el estilo de experiencia. Con esa base podréis buscar espacios realistas y comparar propuestas que hablen el mismo idioma.'], list: ['Presupuesto orientativo y prioridades.', 'Fecha o rango de fechas.', 'Número de invitados y procedencia.', 'Tipo de espacio y plan B meteorológico.', 'Catering, música, fotografía y producción.', 'Diseño, papelería, flores y detalles.'] },
@@ -74,7 +74,7 @@ export const articles = [
     title: 'Wedding planner en Barcelona y Cataluña',
     description: 'Masías, costa y ciudad: cómo elegir el formato que mejor encaja con vuestra celebración en Cataluña.',
     readTime: '8 min de lectura',
-    image: '/assets/finca.webp',
+    image: '/assets/boda-paisaje.webp',
     sections: [
       { heading: 'El lugar define el ritmo', paragraphs: ['Una masía, un hotel en Barcelona, una finca del interior o un espacio frente al mar ofrecen experiencias diferentes. Pensad en la llegada de los invitados, la luz, el plan B y la distancia entre ceremonia, aperitivo y banquete.', 'Cataluña tiene una gran variedad de espacios. La clave está en elegir el que permita contar vuestra historia, no el que tenga más elementos decorativos.'] },
       { heading: 'Qué revisar al visitar una masía', paragraphs: ['Preguntad por horarios de montaje y desmontaje, exclusividad, proveedores obligatorios, alojamiento, sonido, iluminación, accesibilidad y restricciones de ruido. Estos puntos suelen ser tan importantes como el jardín o la arquitectura.'], list: ['Plan B real para lluvia o calor.', 'Acceso y tiempos de carga para proveedores.', 'Distancias y transporte para invitados.', 'Cocina, catering y necesidades técnicas.', 'Iluminación de caminos y espacios exteriores.'] },
@@ -88,7 +88,7 @@ export const articles = [
     title: 'Cómo preparar el presupuesto de una boda en España',
     description: 'Un método sencillo para ordenar partidas, comparar propuestas y reservar margen para lo que de verdad importa.',
     readTime: '9 min de lectura',
-    image: '/assets/masia.webp',
+    image: '/assets/espacio-masia.webp',
     sections: [
       { heading: 'El presupuesto es una herramienta de diseño', paragraphs: ['Un presupuesto no sirve solo para controlar el gasto. Os ayuda a decidir qué queréis que recuerden vuestros invitados y qué elementos pueden desaparecer sin afectar a la experiencia.', 'Trabajad con rangos al principio. Hasta conocer el espacio, el número de invitados y el tipo de servicio, una cifra cerrada suele dar una falsa sensación de precisión.'] },
       { heading: 'Las partidas que conviene contemplar', paragraphs: ['Además del espacio y el catering, tened en cuenta producción, mobiliario, flores, música, fotografía, vídeo, papelería, transporte, alojamiento, belleza, vestuario, regalos, impuestos y posibles desplazamientos.'], list: ['Espacio y catering.', 'Fotografía y vídeo.', 'Música y sonido.', 'Flores, iluminación y decoración.', 'Papelería y detalles.', 'Transporte y alojamiento.', 'Coordinación y producción.', 'Margen de imprevistos.'] },
@@ -102,7 +102,7 @@ export const articles = [
     title: 'Checklist de boda: la lista completa para empezar',
     description: 'Un recorrido por las decisiones principales de una boda, ordenadas para que sepáis qué toca en cada momento.',
     readTime: '10 min de lectura',
-    image: '/assets/novia-espejo.webp',
+    image: '/assets/boda-montana.webp',
     sections: [
       { heading: 'De 12 a 18 meses antes', paragraphs: ['Definid la visión, el presupuesto y la lista aproximada de invitados. Reservad el espacio y los proveedores que se llenan antes, como fotografía, vídeo y música.'], list: ['Definir prioridades y presupuesto.', 'Elegir fecha y espacio.', 'Crear lista de invitados inicial.', 'Contratar planificación o coordinación si la necesitáis.', 'Investigar ceremonia y documentación.'] },
       { heading: 'De 9 a 12 meses antes', paragraphs: ['Cerrad el equipo principal y empezad a construir el diseño. Este es un buen momento para pensar en alojamiento y transporte si habrá invitados que viajan.'], list: ['Fotografía, vídeo, música y catering.', 'Vestuario y alianzas.', 'Concepto visual y paleta.', 'Alojamiento y transporte.', 'Web o sistema de confirmación.'] },
@@ -116,7 +116,7 @@ export const articles = [
     title: 'Lugares para bodas en Madrid: cómo elegir el escenario',
     description: 'Fincas, hoteles y espacios singulares: las preguntas que revelan si un lugar funciona para vuestra boda.',
     readTime: '8 min de lectura',
-    image: '/assets/finca.webp',
+    image: '/assets/boda-atardecer.webp',
     sections: [
       { heading: 'No elijáis un lugar solo por la primera impresión', paragraphs: ['Un espacio puede ser precioso y no encajar con el número de invitados, el horario o la forma de celebrar que imagináis. Visitadlo con una lista de preguntas y recorred el día completo: llegada, ceremonia, aperitivo, banquete, fiesta y salida.', 'La mejor localización es la que hace fácil la experiencia, no necesariamente la más espectacular.'] },
       { heading: 'Las preguntas que cambian el presupuesto', paragraphs: ['Averiguad si hay exclusividad, catering obligatorio, alquiler de mobiliario, horas de montaje, límite de sonido, plan B y costes de transporte. Preguntad también quién coordina proveedores el día de la boda.'], list: ['¿Qué incluye exactamente el alquiler?', '¿Quién aporta mobiliario, iluminación y sonido?', '¿Cuál es el plan B y tiene coste extra?', '¿Hasta qué hora puede durar la celebración?', '¿Hay alojamiento o transporte recomendado?', '¿Qué proveedores son obligatorios?'] },
@@ -130,7 +130,7 @@ export const articles = [
     title: 'Masías para bodas en Barcelona: guía para elegir bien',
     description: 'Qué diferencia a una masía, qué revisar antes de reservar y cómo diseñar una celebración conectada con el paisaje.',
     readTime: '8 min de lectura',
-    image: '/assets/masia-historica.webp',
+    image: '/assets/boda-historia.webp',
     sections: [
       { heading: 'La arquitectura ya cuenta una historia', paragraphs: ['Las masías tienen textura, memoria y una escala que invita a celebrar sin prisa. El diseño debe acompañar lo que ya existe: piedra, madera, vegetación, vistas y luz.', 'Antes de añadir decoración, preguntad qué necesita realmente el espacio para que el recorrido de los invitados sea cómodo y especial.'] },
       { heading: 'Checklist de visita', paragraphs: ['La belleza del edificio es solo una parte de la decisión. Revisad accesos, cocina, baños, electricidad, iluminación, horarios y vecinos.'], list: ['Accesos para montaje y proveedores.', 'Cocina y condiciones del catering.', 'Baños suficientes y accesibles.', 'Iluminación exterior y caminos.', 'Alojamiento y transporte.', 'Plan B para ceremonia y banquete.', 'Restricciones de música y horarios.'] },

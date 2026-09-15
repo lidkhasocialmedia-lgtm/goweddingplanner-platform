@@ -42,7 +42,7 @@ docs/SEO-STRATEGY.md   Checklist de migración y posicionamiento
 
 ## Formulario y analítica
 
-El formulario conserva los nombres de campo y endpoints de Google Forms presentes en los repositorios actuales. El selector de región decide qué endpoint usar para Madrid o Cataluña; las regiones nuevas usan Madrid como fallback hasta que exista una hoja/formulario específico para ellas.
+El formulario conserva los nombres de campo del sitio principal y todas las solicitudes se envían al mismo endpoint de Google Forms utilizado por `goweddingplanner.com`. La región se guarda junto a la localidad para que el lead pueda clasificarse sin dividir el destino de recepción.
 
 Los eventos se envían a `window.dataLayer` (`hero_cta`, `inline_cta`, `lead_form_submit`, `lead_form_success`, etc.). Antes de publicar hay que insertar los IDs reales de GA4/GTM y configurar el consentimiento de cookies; no se han inventado IDs de medición.
 
