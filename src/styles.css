@@ -548,8 +548,8 @@ details p { max-width: 670px; margin: 15px 0 0; color: var(--muted); font-size: 
   .nav-links.is-open { display: flex; }
   .nav-links a { padding: 15px 4px; border-bottom: 1px solid var(--line); font-size: .73rem; }
   .nav-links a:last-child { border: 0; }
-  .nav-links .nav-contact-link { display: flex; align-items: center; justify-content: center; min-height: 46px; margin-top: 12px; padding: 14px 18px; border: 1px solid #6c4a91; color: #fff !important; background: #6c4a91; font-weight: 750; letter-spacing: .13em; text-align: center; }
-  .nav-links .nav-contact-link:hover { color: #fff !important; background: #573778; }
+  .nav-links .nav-contact-link { display: flex; align-items: center; justify-content: center; min-height: 46px; margin-top: 12px; padding: 14px 18px; border: 1px solid var(--rose); color: #fff !important; background: var(--rose); font-weight: 750; letter-spacing: .13em; text-align: center; }
+  .nav-links .nav-contact-link:hover { color: #fff !important; background: var(--rose-deep); }
   .hero-home { padding: 64px 0 70px; }
   .hero-visual { min-height: 450px; }
   .hero-visual::before { top: 15px; width: 84%; height: 88%; }
