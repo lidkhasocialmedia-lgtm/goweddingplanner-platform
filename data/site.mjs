@@ -14,7 +14,7 @@ export const site = {
     { label: 'Servicios', href: '/servicios/' },
     { label: 'Portfolio', href: '/portfolio/' },
     { label: 'Historias', href: '/blog/' },
-    { label: 'Contacto', href: '/contacto/' },
-    { label: 'Colabora', href: '/trabaja-con-nosotros/' }
+    { label: 'Colabora', href: '/trabaja-con-nosotros/' },
+    { label: 'Contacto', href: '/contacto/' }
   ]
 };

@@ -35,7 +35,7 @@ const logo = `
   </a>`;
 
 const navigation = (current = '') => site.nav.map((item) => `
-  <a href="${item.href}"${current === item.href ? ' aria-current="page"' : ''}>${esc(item.label)}</a>`).join('');
+  <a class="${item.href === '/contacto/' ? 'nav-contact-link' : ''}" href="${item.href}"${current === item.href ? ' aria-current="page"' : ''}>${esc(item.label)}</a>`).join('');
 
 const footer = () => `
 <footer class="site-footer">
