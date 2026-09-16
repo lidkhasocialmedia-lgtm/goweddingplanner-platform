@@ -1,5 +1,19 @@
 /* GoWeddingPlanner — visual system
    Ivory paper, editorial serif, mineral accents and calm conversion patterns. */
+@font-face {
+  font-family: 'MontserratLocal';
+  src: url('./assets/montserrat-600.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'MontserratLocal';
+  src: url('./assets/montserrat-700.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
 :root {
   --paper: #fbfaf7;
   --paper-deep: #f3eee8;
@@ -108,8 +122,9 @@ p { margin: 0 0 18px; }
   background: var(--dark);
 }
 .brand-logo-img { width: 46px; height: 46px; object-fit: contain; }
-.brand-wordmark { font-size: .82rem; font-weight: 800; letter-spacing: .12em; line-height: 1.2; text-transform: uppercase; }
-.brand-wordmark span { display: block; color: var(--rose); font-size: .64rem; font-weight: 600; letter-spacing: .24em; }
+.brand-wordmark { display: inline-flex; align-items: baseline; gap: 6px; color: #1c1917; font-family: 'MontserratLocal', 'Montserrat', var(--sans); font-size: .80rem; font-weight: 700; letter-spacing: .12em; line-height: 1; text-transform: uppercase; white-space: nowrap; }
+.brand-wordmark-main { color: #1c1917; }
+.brand-wordmark-accent { color: #f43f5e; }
 .nav-links { display: flex; align-items: center; gap: clamp(16px, 2.4vw, 34px); margin-left: auto; }
 .nav-links a { color: var(--muted); font-size: .74rem; letter-spacing: .09em; text-transform: uppercase; transition: color .2s ease; }
 .nav-links a:hover, .nav-links a[aria-current="page"] { color: var(--rose); }
@@ -476,7 +491,8 @@ details p { max-width: 670px; margin: 15px 0 0; color: var(--muted); font-size: 
 .site-footer .brand { color: #fff; }
 .site-footer .brand-logo-wrap { border-color: #e0afa9; }
 .site-footer .brand-wordmark { color: #fff; }
-.site-footer .brand-wordmark span { color: #e0afa9; }
+.site-footer .brand-wordmark-main { color: #fff; }
+.site-footer .brand-wordmark-accent { color: #e0afa9; }
 .footer-intro { max-width: 270px; margin-top: 22px; font-size: .84rem; line-height: 1.65; }
 .footer-col strong { display: block; margin-bottom: 18px; color: #fff; font-size: .68rem; letter-spacing: .17em; text-transform: uppercase; }
 .footer-col a { display: block; width: max-content; max-width: 100%; margin: 8px 0; font-size: .8rem; transition: color .2s ease; }

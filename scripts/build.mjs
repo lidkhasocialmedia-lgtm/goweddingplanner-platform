@@ -31,7 +31,7 @@ const readAsset = (name) => `/assets/${name}`;
 const logo = `
   <a class="brand" href="/" aria-label="Go Wedding Planner, inicio">
     <span class="brand-logo-wrap"><img class="brand-logo-img" src="/assets/go-wedding-logo.webp" alt="" width="58" height="58"></span>
-    <span class="brand-wordmark">GO WEDDING<span>PLANNER</span></span>
+    <span class="brand-wordmark"><span class="brand-wordmark-main">GO WEDDING</span> <span class="brand-wordmark-accent">PLANNER</span></span>
   </a>`;
 
 const navigation = (current = '') => site.nav.map((item) => `
