@@ -1,11 +1,11 @@
-# Arquitectura propuesta
+# Arquitectura del proyecto
 
-## Decisión: un dominio, carpetas por región
+## Decisión vigente: proyecto independiente para eventos
 
-La recomendación para esta fase es concentrar la arquitectura bajo `goweddingplanner.com`:
+La web de Madrid en `goweddingplanner.com` permanece intacta. Este repositorio contiene una web independiente, con contenido propio, preparada para publicarse en `bodasyeventos.goweddingplanner.com`:
 
 ```text
-goweddingplanner.com/
+bodasyeventos.goweddingplanner.com/
 ├── /
 ├── /como-funciona/
 ├── /regiones/
@@ -13,24 +13,21 @@ goweddingplanner.com/
 │   └── /ciudades/...
 ├── /cataluna/
 │   └── /ciudades/...
-├── /pais-vasco/
-├── /castilla-la-mancha/
-├── /castilla-y-leon/
-├── /andalucia/
-├── /comunidad-valenciana/
-├── /murcia/
 ├── /servicios/
+├── /eventos/
 ├── /portfolio/
 ├── /blog/
 └── /recursos/
 ```
 
-### Por qué
+La ruta `/eventos/` amplía la propuesta más allá de las bodas: bautizos, comuniones, cumpleaños y aniversarios, reuniones familiares, celebraciones privadas bajo consulta y eventos corporativos, de marca, inauguraciones o presentaciones.
 
-- La web está en una fase inicial de autoridad y captación: concentrar enlaces, contenido y señales de marca en un dominio simplifica el crecimiento.
-- Las carpetas permiten organizar la intención local sin obligar a Google y a los equipos de analítica a tratar cada región como una web independiente.
-- Compartir plantilla, datos y componentes evita duplicidades y hace más rápido crear nuevas páginas de calidad.
-- Los antiguos subdominios pueden mantenerse durante la transición como aliases con redirección 301 hacia sus carpetas equivalentes.
+### Estado de publicación
+
+- El proyecto se mantiene en preview de GitHub Pages con `noindex,nofollow`.
+- No se ha cambiado DNS, Vercel, GitHub Pages ni ningún dominio de producción.
+- El `canonical`, el sitemap y los datos estructurados ya apuntan al subdominio reservado para la publicación final.
+- La publicación indexable requiere validar antes el dominio, formularios, redirecciones y medición.
 
 No se deben lanzar páginas regionales idénticas cambiando solo el nombre del territorio. Cada región necesita ejemplos, espacios, lenguaje, enlaces internos y proveedores que aporten valor local.
 

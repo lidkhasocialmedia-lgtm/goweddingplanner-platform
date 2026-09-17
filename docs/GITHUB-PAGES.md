@@ -14,12 +14,14 @@ El workflow añade automáticamente `/goweddingplanner-platform/` a los recursos
 
 ## Dominio real
 
-No se ha cambiado DNS ni se ha añadido un `CNAME` de producción. Para asociar `goweddingplanner.com`:
+No se ha cambiado DNS ni se ha añadido un `CNAME` de producción. La arquitectura aprobada reserva `goweddingplanner.com` para la web de Madrid y contempla publicar este proyecto en `bodasyeventos.goweddingplanner.com`.
 
-1. Activar el dominio personalizado en la configuración de Pages.
+Cuando llegue la ventana de publicación del subdominio:
+
+1. Activar `bodasyeventos.goweddingplanner.com` como dominio personalizado en la configuración de Pages.
 2. Configurar los registros DNS que indique GitHub.
-3. Cambiar `BASE_PATH` del workflow a vacío para el dominio raíz.
-4. Validar SSL, canonical, sitemap y redirecciones.
-5. Mantener la web actual hasta haber comprobado el preview y aprobado la ventana de migración.
+3. Cambiar el `BASE_PATH` del workflow a vacío para el dominio personalizado.
+4. Validar SSL, canonical, sitemap, formularios y redirecciones.
+5. Mantener la web de Madrid intacta hasta haber comprobado el preview y aprobado la publicación.
 
-Los subdominios regionales no deben apuntarse a la nueva versión sin preparar primero sus redirecciones y comprobar el mapa de URLs.
+El preview de GitHub Pages debe conservar `noindex,nofollow`; no se debe publicar el subdominio indexable hasta validar el dominio real.

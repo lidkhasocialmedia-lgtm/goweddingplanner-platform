@@ -55,4 +55,4 @@ El workflow `.github/workflows/deploy-pages.yml` está preparado para publicar e
 3. Confirmar que cada endpoint de Google Forms pertenece a la región correcta.
 4. Configurar el dominio raíz y los certificados SSL.
 5. Aplicar `vercel.json` y validar todas las redirecciones con el dominio real.
-6. Dar de alta la propiedad de dominio en Search Console y enviar `https://goweddingplanner.com/sitemap.xml`.
+6. Dar de alta `bodasyeventos.goweddingplanner.com` como propiedad en Search Console y enviar `https://bodasyeventos.goweddingplanner.com/sitemap.xml`; la web de Madrid en `goweddingplanner.com` no se sustituye.

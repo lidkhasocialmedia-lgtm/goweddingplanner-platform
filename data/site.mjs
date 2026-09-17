@@ -1,7 +1,7 @@
 export const site = {
   name: 'GoWeddingPlanner',
   legalName: 'Go Wedding Planner',
-  url: 'https://goweddingplanner.com',
+  url: 'https://bodasyeventos.goweddingplanner.com',
   email: 'hola@goweddingplanner.com',
   owners: 'Javier & Andrea',
   tagline: 'Bodas con alma. Logística que respira.',
@@ -12,6 +12,7 @@ export const site = {
     { label: 'Cómo funciona', href: '/como-funciona/' },
     { label: 'Regiones', href: '/regiones/' },
     { label: 'Servicios', href: '/servicios/' },
+    { label: 'Eventos', href: '/eventos/' },
     { label: 'Portfolio', href: '/portfolio/' },
     { label: 'Historias', href: '/blog/' },
     { label: 'Colabora', href: '/trabaja-con-nosotros/' },
